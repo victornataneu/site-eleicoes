@@ -481,3 +481,13 @@
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.direitos{
+    display: flex;
+    position: relative;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-top: 0.5rem;
+}
