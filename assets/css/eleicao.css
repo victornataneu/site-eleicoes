@@ -153,6 +153,18 @@
         
     }
 
+
+    .section-main .content-quem-sou{
+        display: flex;
+        font-size: 1.4rem;
+    }
+
+    .section-main .content-profissional {
+        display: flex;
+        font-size: 1.4rem;
+        
+    }
+
     .close-menu {
         position: fixed; /* Fixa o elemento na tela, mantendo sua posição ao rolar a página */
         z-index: 2; /* Garante que este elemento fique acima de outros */
@@ -189,6 +201,36 @@
     .close-menu:checked ~ .close-menu-label::after {
         display: block; /* Garante que o ícone de fechar seja exibido quando o menu estiver aberto */
         content: '×'; /* Troca o ícone de "hambúrguer" por um ícone de "fechar" (X) */
+        
+    }
+
+
+    .img-ela {
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        max-width: auto;
+        justify-content: center;
+        margin-top: 6rem;
+        
+    }
+    
+    .img-ela img {
+        width: auto;
+        max-height: auto;
+        object-fit: cover; /* Mantém a proporção da imagem */
+        margin-bottom: 1rem;
+        
+    }
+    
+    .img-ela .img-2 {
+        width: 60%; /* Diminui a largura da imagem para 50% */
+        max-height: 70rem; /* Limita a altura máxima da imagem */
+        height: auto; /* Mantém a altura proporcional à largura */
+        object-fit: contain; /* Garante que a imagem seja exibida inteira sem cortes */
+        margin-left: 1rem;
+        position: relative;
+        right: 1rem;
         
     }
 
@@ -231,7 +273,7 @@
     }
 
 
-
+    
 
     .nav {
         display: none; /* Esta regra sobrescreve a anterior, escondendo o menu (nav) por padrão */
@@ -277,6 +319,40 @@
         
     }
 
+    .section-main .content-quem-sou{
+        display: flex;
+        font-size: 1.4rem;
+    }
+
+    .section-main .content-profissional {
+        display: flex;
+        font-size: 1.4rem;
+        
+    }
+
+    .img-ela {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        max-width: auto;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+    
+    .img-ela img {
+        width: auto;
+        max-height: auto;
+        object-fit: cover; /* Mantém a proporção da imagem */
+    }
+    
+    .img-ela .img-2 {
+        width: auto; /* Diminui a largura da imagem para 50% */
+        max-height: 80rem; /* Limita a altura máxima da imagem */
+        height: auto; /* Mantém a altura proporcional à largura */
+        object-fit: contain; /* Garante que a imagem seja exibida inteira sem cortes */
+        margin-left: 1rem;
+    }
+
     
 }
 
@@ -312,6 +388,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .img-ela {
