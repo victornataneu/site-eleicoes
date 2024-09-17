@@ -446,3 +446,38 @@
     font-size: 1.4rem;
     text-align: justify;
 }
+
+
+.rodape {
+    display: flex;
+    background-color: rgb(70, 188, 209);
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.redes-sociais-e-contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem; /* Define o espaço entre os ícones */
+}
+
+.redes-sociais-e-contatos img {
+    width: 40px; /* Ajuste de tamanho dos ícones */
+    height: 40px;
+    transition: transform 0.3s ease; /* Adiciona um efeito de transição */
+}
+
+.redes-sociais-e-contatos a:hover img {
+    transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
+}
+
+.contatos{
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
